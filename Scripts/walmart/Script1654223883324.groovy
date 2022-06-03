@@ -30,5 +30,3 @@ WebUI.click(findTestObject('Object Repository/smartBear/Page_Software Testing, M
 WebUI.verifyElementText(findTestObject('Object Repository/smartBear/Page_The All-In-One Automated API Testing P_ebef69/img_Pactflow_brand-text align-self-center h_0facf9'), 
     '')
 
-WebUI.closeBrowser()
-
