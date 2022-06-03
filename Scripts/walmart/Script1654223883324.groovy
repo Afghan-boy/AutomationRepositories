@@ -21,12 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://smartbear.com/')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_Software Testing, Monitoring, Develope_b469a2/a_Resources'))
 
-WebUI.click(findTestObject('Object Repository/smartBear/Page_Software Testing, Monitoring, Develope_b469a2/a_Products'))
-
-WebUI.click(findTestObject('Object Repository/smartBear/Page_Software Testing, Monitoring, Develope_b469a2/span_ReadyAPI'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/smartBear/Page_The All-In-One Automated API Testing P_ebef69/img_Pactflow_brand-text align-self-center h_0facf9'), 
-    '')
+WebUI.click(findTestObject('Object Repository/Page_Software Testing, Monitoring, Develope_b469a2/span_Academy'))
 
